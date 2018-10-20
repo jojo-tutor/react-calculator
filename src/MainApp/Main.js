@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Card, Elevation } from "@blueprintjs/core"
 import Calculator from '../Calculator/Calculator'
 import History from '../History/History'
 import './Main.css'
@@ -6,10 +7,10 @@ import './Main.css'
 class Main extends Component {
   render() {
     return (
-      <div className="Main">
+      <Card elevation={Elevation.TWO} className="Main">
         <Calculator/>
         <History/>
-      </div>
+      </Card>
     )
   }
 }

@@ -2,9 +2,5 @@
     display: flex;
     flex-direction: column;
 
-    margin: 0.6em;
-}
-
-.DateTime-ShowHideHistory {
-    display: flex;
+    margin: 1.6em;
 }

@@ -1,9 +1,12 @@
 .Keypad {
     margin: 0.6em;
-    border-style: solid;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.Keypad .Key span {
+    font-size: 30px;
 }
