@@ -17,5 +17,5 @@ code {
   display: flex;
 
   width: 900px;
-  margin: 5% auto;
+  margin: 5% auto 0 auto;
 }

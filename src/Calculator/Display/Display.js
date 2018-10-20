@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import DateTime from './DateTime/Datetime'
 import PreviousInput from './PreviousInput/PreviousInput'
 import Input from './Input/Input'
 import './Display.css'

@@ -15,12 +15,12 @@ class DateTime extends Component {
         clearInterval(this.updateDateTime)
     }
     getDateTime() {
-        return moment().format('MMMM Do YYYY, h:mm:ss a')
+        return moment().format('Do of MMMM YYYY, h:mm:ss A')
     }
     render() {
         return (
             <div className="DateTime">
-            { this.state.dateTime }
+                System Date and Time: { this.state.dateTime }
             </div>
         )
     }
