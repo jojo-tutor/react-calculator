@@ -1,7 +1,11 @@
 .Key {
-    margin: 0.6em;
     width: 100px;
     height: 100px;
+    margin: 10px;
+    font-size: 3em;
+    line-height: 90px;
+    text-align: center;
+    box-sizing: border-box;
     background: tomato;
     border-style: solid;
 }
