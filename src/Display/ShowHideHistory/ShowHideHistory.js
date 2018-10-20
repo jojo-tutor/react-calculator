@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class ShowHideHistory extends Component {
   render() {
@@ -6,8 +6,8 @@ class ShowHideHistory extends Component {
       <div className="ShowHideHistory">
         ShowHideHistory
       </div>
-    );
+    )
   }
 }
 
-export default ShowHideHistory;
+export default ShowHideHistory

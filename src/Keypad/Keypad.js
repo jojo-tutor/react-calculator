@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class Keypad extends Component {
   render() {
@@ -6,8 +6,8 @@ class Keypad extends Component {
       <div className="Keypad">
         Keypad
       </div>
-    );
+    )
   }
 }
 
-export default Keypad;
+export default Keypad
