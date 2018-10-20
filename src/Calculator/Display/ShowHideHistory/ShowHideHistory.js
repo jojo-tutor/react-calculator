@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './ShowHideHistory.css'
 
 class ShowHideHistory extends Component {
   render() {

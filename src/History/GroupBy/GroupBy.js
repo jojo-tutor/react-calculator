@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './GroupBy.css'
 
 class GroupBy extends Component {
   render() {

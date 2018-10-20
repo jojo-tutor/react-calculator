@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import './Key.css'
 
 class Key extends Component {
   render() {

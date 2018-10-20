@@ -1,0 +1,8 @@
+.History {
+    display: flex;
+    flex-direction: column;
+
+    width: 25%;
+    margin: .6em;
+    border-style: solid;
+}

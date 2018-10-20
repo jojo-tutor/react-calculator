@@ -1,0 +1,7 @@
+.Key {
+    margin: 0.6em;
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    border-style: solid;
+}

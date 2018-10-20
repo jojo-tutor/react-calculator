@@ -1,0 +1,6 @@
+.Items {
+    margin: .6em;
+    border-style: solid;
+
+    flex-grow: 2;
+}

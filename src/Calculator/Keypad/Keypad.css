@@ -1,0 +1,9 @@
+.Keypad {
+    margin: 0.6em;
+    border-style: solid;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

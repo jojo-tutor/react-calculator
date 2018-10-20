@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import KeysList from './KeysList'
 import Key from './Key/Key'
+import './Keypad.css'
 
 class Keypad extends Component {
   renderKeys(list) {

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './ClearHistory.css'
 
 class ClearHistory extends Component {
   render() {
