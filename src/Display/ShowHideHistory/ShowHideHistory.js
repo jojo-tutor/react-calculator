@@ -4,7 +4,7 @@ class ShowHideHistory extends Component {
   render() {
     return (
       <div className="ShowHideHistory">
-        ShowHideHistory
+        Hide History
       </div>
     )
   }

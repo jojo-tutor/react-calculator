@@ -8,7 +8,7 @@ class Display extends Component {
       <div className="Display">
         <DateTime/>
         <ShowHideHistory/>
-        Display Result
+        6
       </div>
     )
   }

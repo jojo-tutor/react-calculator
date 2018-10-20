@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import moment from 'moment'
 
 class DateTime extends Component {
   render() {
     return (
       <div className="DateTime">
-        DateTime
+        { moment().format('MMMM Do YYYY, h:mm:ss a') }
       </div>
     )
   }
