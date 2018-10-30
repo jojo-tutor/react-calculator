@@ -5,9 +5,11 @@ import './Key.css'
 
 class Key extends Component {
   render() {
-    const { keypadKey } = this.props
+    const { keypadKey, onKeyChange } = this.props
     return (
-      <Button large intent='primary' className="Key">{ keypadKey }</Button>
+      <Button id={keypadKey} large intent='primary' className="Key" onClick={onKeyChange}>
+        { keypadKey }
+      </Button>
     )
   }
 }

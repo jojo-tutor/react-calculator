@@ -5,8 +5,11 @@ import Key from './Key/Key'
 import './Keypad.css'
 
 class Keypad extends Component {
+  handleKeyChange = e => {
+    console.log('@value', e)
+  }
   renderKeys(list) {
-    return list.map(e => <Key key={e} keypadKey={e} />)
+    return list.map(e => <Key key={e} keypadKey={e} onKeyChange={() => this.handleKeyChange(e)}/>)
   }
   renderHotkeys() {
     return (
